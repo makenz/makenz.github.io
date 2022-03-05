@@ -57,7 +57,7 @@
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="media/MCResume.pdf" class="icon-link">
+            <a target="_blank" rel="noopener noreferrer" href="media/MCResume_update.pdf" class="icon-link">
               <i class="fas fa-file"></i>
             </a>
           </li>
@@ -92,10 +92,10 @@
           <h6>Web Design</h6>
           <h1>Personal Site</h1>
           <p>
-            Programming isn't my strong suit, but I tried to give it a web development a go.
-            The first thousandths attempt went as well as a fish out of water even with the help from
-            from a CS student. I barely managed to scrape by and made this. Although it is lacking right now,
-            I will make sure to make updates along the way.
+            Although programming isn't my strong suit, I scraped together a beginner website with
+            the help from a CS student. I plan on expanding my knowledge on programming to improve the layout
+            of the website and hopefully create a parallax design. For now, I will try to make
+            small improvements on the website.
           </p>
           <!-- <a href="#" class="cta" id="self">View Project</a>
           &emsp;&emsp;
@@ -110,12 +110,21 @@
     <div class="containter">
       <div class="heading" data-aos="fade-up" data-aos-delay="100">
         <h1>Contact</h1>
-
-        <div class="contact" data-aos="fade-left" data-aos-delay="150">
-          <p>
-            Email: cm0533149@gmail.com
-          </p>
-        </div>
+        <p style="padding-top: 3rem; margin-bottom: -4rem">
+          Thank you for visiting!
+        </p>
+      </div>
+      <form action="" id="contactForm" data-aos="fade-up" data-aos-delay="150">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email Address" required />
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="10" rows="10"></textarea>
+        <input type="submit" id="submit" value="Submit" />
+        <div class="alert">Your message was delivered!</div>
+      </form>
+    </div>
 
   </section>
   <footer>
