@@ -36,11 +36,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background:#8693e0 0%;
+  background:#f4acb7 0%;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #ecd1f3 100%;
+  background: #F2D2BD 100%;
 }
 
 section {
@@ -338,7 +338,7 @@ textarea {
 
 input[type="submit"] {
   width: inherit * 2;
-  background-color: #333;
+  background-color: #f4acb7;
   color: #eee;
   padding: 1rem 2rem;
   cursor: pointer;
@@ -346,7 +346,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  color: #333;
+  color: #f4acb7;
   background-color: #eee;
 }
 
@@ -390,13 +390,6 @@ footer {
   transform: scale(1.2);
 }
 
-.fa-facebook-square:hover {
-  color: #4267b2;
-}
-
-.fa-twitter-square:hover {
-  color: #38a1f3;
-}
 
 .fa-github-square:hover {
   color: #111;
